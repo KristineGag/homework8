@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #0020f4;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 16px;
+}
+.navbar-li {
+  margin: 0 21px;
+}
+.navul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logonav {
+  max-width: 1475px;
+  width: 75%;
+  margin: auto;
+}
+.logonavchild {
+  padding: 22px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.last-nav a {
+  color: #171717;
+  background-color: #ffffff;
+  padding: 18px 43px 18px 36px;
+}
+.servicebullet {
+  max-width: 1475px;
+  width: 75%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.servicebulletchild {
+  padding: 22px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bullets {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bullets span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #0a22f4;
+  margin: 0 10px;
+  opacity: 0.3;
+}
+.bullets .span{
+    opacity: 1;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1475px;
+    width: 75%;
+    margin: auto;
+}
+.services .service1, .service2, .service3{
+    max-width: 463px;
+    width: 30%;
+    margin: 60px 12.5px;
+}
+.services span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+.services .span{
+    background-color: #0020f4;
+}
